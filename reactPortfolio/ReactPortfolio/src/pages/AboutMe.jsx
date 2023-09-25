@@ -3,7 +3,8 @@ export default function AboutMe(){
         <div>
             <h1>About Me </h1>
             <p>
-                put words here.
+                // TODO: write this
+                put words here. put more words here
             </p>
         </div>
     )

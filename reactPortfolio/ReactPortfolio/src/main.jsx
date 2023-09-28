@@ -5,8 +5,8 @@ import Home from "./pages/Home.jsx"
 import AboutMe from "./pages/AboutMe.jsx"
 import Contact from "./pages/Contact.jsx"
 import Portfolio from "./pages/Portfolio.jsx"
-import Resume from "./pages/Resume.jsx"
-import './index.css'
+import CV from "./pages/CV.jsx"
+import './App.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -37,8 +37,8 @@ const router = createBrowserRouter([
         element: <Portfolio />
       },
       {
-        path: "/Resume",
-        element: <Resume />
+        path: "/CV",
+        element: <CV />
       }
     ]
   }

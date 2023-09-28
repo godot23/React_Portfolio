@@ -1,5 +1,7 @@
 import {Link, useLocation} from "react-router-dom"
 
+
+
 function Header(){
     const currentPage = useLocation().pathname;
 
@@ -15,7 +17,7 @@ function Header(){
                 <Link to = "/Contact" className = {currentPage === "/Contact" ? 'nav-link active' : 'nav-link'}> Contact</Link>
             </li>
             <li className = "nav-item">
-                <Link to = "/Resume" className = {currentPage === "/Resume" ? 'nav-link active' : 'nav-link'}> Resume</Link>
+                <Link to = "/CV" className = {currentPage === "/CV" ? 'nav-link active' : 'nav-link'}> Resume</Link>
             </li>
         </ul>
     )

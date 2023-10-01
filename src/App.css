@@ -1,23 +1,38 @@
 .nav-tabs {
   display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
   justify-content: space-evenly;
   padding: 30px;
   border: 30px;
   background-color: blue;
-  color: red;
+}
+
+.nav-item{
+  color: blue;
+  text-decoration: none;
+}
+
+.nav-item:visited{
+  color: blue;
 }
 
 li{
   list-style: none;
+  color: rgb(19, 225, 47);
+  text-decoration: none;
 }
 
+body{
+  background-color: green;
+}
 #homePageText{
   position: absolute;
   align-content: center;
   left: 815px;
   bottom: 450px;
   font-weight: bold;
-  
 }
 
 #CVLinkText{
@@ -26,4 +41,9 @@ li{
   left: 815px;
   bottom: 450px;
   font-weight: bold;
+}
+
+#aboutMe{
+  display: grid;
+  align-content: center;
 }

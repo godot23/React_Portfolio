@@ -10,12 +10,23 @@
 }
 
 .nav-item{
-  color: blue;
+  color: green;
   text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-group{
+  display: grid;
+  align-items: center;
 }
 
 .nav-item:visited{
   color: blue;
+}
+
+.portfolioItems{
+  display: grid;
+  align-items: center;
 }
 
 li{

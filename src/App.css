@@ -1,7 +1,7 @@
 .nav-tabs {
   display: flex;
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   width: 100%;
   justify-content: space-evenly;
   padding: 30px;
@@ -16,20 +16,21 @@
 }
 
 .list-group{
-  display: grid;
-  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-item:visited{
   color: blue;
 }
 
-.portfolioItems{
-  display: grid;
-  align-items: center;
+.portfolioContainer, li{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
-li{
+.nav-tabs, li{
   list-style: none;
   color: rgb(19, 225, 47);
   text-decoration: none;
@@ -39,22 +40,24 @@ body{
   background-color: green;
 }
 #homePageText{
-  position: absolute;
+  /* position: absolute; */
   align-content: center;
-  left: 815px;
-  bottom: 450px;
+  /* left: 815px; */
+  /* bottom: 450px; */
   font-weight: bold;
 }
 
 #CVLinkText{
-  position: absolute;
+  /* position: absolute; */
   align-content: center;
-  left: 815px;
-  bottom: 450px;
+  /* left: 815px; */
+  /* bottom: 450px; */
   font-weight: bold;
 }
 
 #aboutMe{
-  display: grid;
+  display: flex;
+  background-color: pink;
   align-content: center;
+  top: 50px;
 }

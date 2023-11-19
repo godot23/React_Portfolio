@@ -1,23 +1,30 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Portfolio(props) {
     return (
-        <div className="container text-center">
-            <div className="list-group">
-                <li >
-                    <a href="https://github.com/KevalPatel6/Jeopardy">Jeopardy Game: Collaboration with Keval Patel and John Doaks </a>
-                </li>
-                <li class = "portfolioItems">
-                    <a href="https://github.com/HarryFelty/BookReview">Book Review Website: Collaboration with Harry Felty and John Doaks</a>
-                </li>
-                <li class = "portfolioItems">
-                    <a href="https://github.com/godot23/Weather_App">Weather App</a>
-                </li>
-                <li class = "portfolioItems">
-                    <a href="https://github.com/godot23/Employee_Database">Employee Database: Backend Only</a>
-                </li>
-                {/* <a href = "placeholder">Project 5</a>
-                <a href = "placeholder">Project 6 </a> */}
+        <div>
+            <div className="card">
+                {/* <img src="..." className="card-img-top" alt="Card image cap" /> */}
+                <div className="card-body">
+                    <h5 className="card-title">Star Explorer</h5>
+                    <p className="card-text">An app to catalog stars and planets, along with their important information. </p>
+                    <a href="https://github.com/Jrherrera333/star-explorer" className="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+            <div className="card">
+                {/* <img src="..." className="card-img-top" alt="Card image cap" /> */}
+                <div className="card-body">
+                    <h5 className="card-title">Weather App</h5>
+                    <p className="card-text">An app to generate a 5 day weather report based on a given city</p>
+                    <a href="https://github.com/godot23/Weather_App" className="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Employee Database</h5>
+                    <p className="card-text">A backend framework for managing an employee database, including job title, department, salary, and more.</p>
+                    <a href="https://github.com/godot23/Employee_Database" className="btn btn-primary">GitHub</a>
+                </div>
             </div>
         </div>
     )

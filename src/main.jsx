@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Home from "./pages/Home.jsx"
 import AboutMe from "./pages/AboutMe.jsx"
-import Contact from "./pages/Contact.jsx"
 import Portfolio from "./pages/Portfolio.jsx"
 import CV from "./pages/CV.jsx"
 import './App.css'
@@ -22,15 +20,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <AboutMe />
       },
       {
         path: "/AboutMe",
         element: <AboutMe />
-      },
-      {
-        path: "/Contact",
-        element: <Contact />
       },
       {
         path: "/Portfolio",

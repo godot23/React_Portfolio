@@ -39,6 +39,12 @@
 body{
   background-color: green;
 }
+
+#CVLinkText, #resumeLinkText{
+  color: white;
+  font-weight: normal;
+}
+
 #homePageText{
   /* position: absolute; */
   align-content: center;
@@ -55,9 +61,47 @@ body{
   font-weight: bold;
 }
 
+#CV_resume{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+}
+
 #aboutMe{
   display: flex;
   background-color: pink;
-  align-content: center;
-  top: 50px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#photo{
+  flex: 2 1 150px;
+}
+
+.parentContainer{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.jumbotron{
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  margin: 5px;
 }

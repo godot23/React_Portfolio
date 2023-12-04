@@ -1,5 +1,5 @@
-import ResumeFile from "../assets/Jason_Navon_Resume.pdf";
-import CVFile from "../assets/Jason_Navon_CV.PDF";
+import ResumeFile from "@/assets/Jason_Navon_Resume.pdf";
+import CVFile from "@/assets/Jason_Navon_CV.PDF";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function CV() {
